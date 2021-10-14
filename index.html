@@ -9,32 +9,35 @@
     <title>Cronometro</title>
 </head>
 <body>
-    <div class="container">
-        <div class="box">
-            <span  id="hour">00</span>
+    <div class="container-card">
+        <div class="container">
+            <div class="box">
+                <span  id="hour">00</span>
+            </div>
+            
+            <div class="box">
+                <span id="min">00</span>
+            </div>
+            
+            <div class="box">
+                <span id="sec">00</span>
+            </div>
+            
+            <div class="box">
+                <span id="hun">00</span>
+            </div>
         </div>
         
-        <div class="box">
-            <span id="min">00</span>
+        <div class="button-center">
+            <input type="button" class="button" value="INICIAR" id="ini">
+            <input type="button" class="button" value="PAUSE" id="pause">
+            <input type="button" class="button" value="ZERAR" id="zer" onclick="zerar()">
         </div>
         
-        <div class="box">
-            <span id="sec">00</span>
-        </div>
-        <div class="box">
-            <span id="hun">00</span>
-        </div>
+        <footer>
+            <p> @edinelsonslima</p>
+            <script src="js/index.js"></script>
+        </footer>
     </div>
-    
-    <div class="button-center">
-        <input type="button" class="button" value="INICIAR" id="ini">
-        <input type="button" class="button" value="PAUSE" id="pause">
-        <input type="button" class="button" value="ZERAR" id="zer" onclick="zerar()">
-    </div>
-    
-    <footer>
-        <p> &copy; Edinelson Lima</p>
-        <script src="js/index.js"></script>
-    </footer>
 </body>
 </html>

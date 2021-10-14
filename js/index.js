@@ -45,7 +45,7 @@ pau.addEventListener('click',()=>{
     if(pauseButton){ //Se retornar TRUE pode acessar o botão pause
         cont ++ // conta os cliks no botão pause
         if(cont % 2 == 0){
-            pau.value = 'PLAY'
+            pau.value = ' PLAY '
             clearInterval(control)
             console.log('click Pause')
         }else{
